@@ -1,0 +1,19 @@
+# Configs
+
+# IDE files and folders
+.vscode/*
+!.vscode/settings.json
+
+# Logs
+*.log
+*.heapsnapshot
+.nyc_output/
+
+# Dependency directory
+node_modules
+
+
+# OS X
+.DS_Store
+
+
