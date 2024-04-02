@@ -8,9 +8,9 @@
     "start:env": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:dev": "npm run build && gulp dev --gulpfile config/gulp/dev.js",
     "start:prod": "node public/app.js",
-    "build": "gulp build --gulpfile config/gulp/base.js",
     "test": "jest -c ./config/test/jest.json --verbose",
     "test:watch": "jest -c ./config/test/jest.json --verbose --watchAll -i"
+    "build": "gulp build --gulpfile config/gulp/base.js",
   },
   "author": "Lemoncode",
   "license": "MIT",
