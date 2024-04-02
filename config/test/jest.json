@@ -9,5 +9,6 @@
   "transform": {
     ".ts": "<rootDir>/node_modules/ts-jest/preprocessor.js"
   },
-  "restoreMocks": true
+  "restoreMocks": true,
+  "testResultsProcessor": "./node_modules/jest-junit-reporter"
 }
