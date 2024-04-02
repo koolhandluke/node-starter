@@ -10,5 +10,9 @@
     ".ts": "<rootDir>/node_modules/ts-jest/preprocessor.js"
   },
   "restoreMocks": true,
-  "testResultsProcessor": "./node_modules/jest-junit-reporter"
+  "reporters": [ "default", ["jest-junit", {
+    "outputDirectory": "reports/test",
+    "outputName": "jest.xml"
+     
+  }] ]
 }
