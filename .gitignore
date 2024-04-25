@@ -1,4 +1,6 @@
 # Configs
+.DS_Store
+commitlint
 
 # IDE files and folders
 .vscode/*
@@ -12,6 +14,8 @@
 # Dependency directory
 node_modules
 
+# tests
+reports
 
 # OS X
 .DS_Store
